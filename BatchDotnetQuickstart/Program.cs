@@ -137,7 +137,6 @@ namespace BatchDotNetQuickstart
                                             //ApplicationId = "testbatchapp",                                           
                                            ApplicationId = "hpcapp"//,
                                            //Version = "1.1"
-
                                         }
                                     }
                                 };
