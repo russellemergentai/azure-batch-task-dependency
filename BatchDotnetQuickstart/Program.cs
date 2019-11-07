@@ -167,7 +167,6 @@ namespace BatchDotNetQuickstart
                     // Add all tasks to the job.
                     batchClient.JobOperations.AddTask(JobId, tasks);
 
-
                     // Monitor task success/failure, specifying a maximum amount of time to wait for the tasks to complete.
                     TimeSpan timeout = TimeSpan.FromMinutes(30);
                     Console.WriteLine("Monitoring all tasks for 'Completed' state, timeout in {0}...", timeout);
