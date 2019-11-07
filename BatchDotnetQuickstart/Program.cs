@@ -127,28 +127,33 @@ namespace BatchDotNetQuickstart
                         // first task
                         if (lastTaskId == null)
                         {
-                            task = new CloudTask(taskId, $"cmd /c %AZ_BATCH_APP_PACKAGE_TESTBATCHAPP%\\testbatchapp.exe {i}")
+                            //task = new CloudTask(taskId, $"cmd /c %AZ_BATCH_APP_PACKAGE_TESTBATCHAPP%\\testbatchapp.exe {i}")
+                            task = new CloudTask(taskId, $"cmd /c %AZ_BATCH_APP_PACKAGE_HPCAPP%\\testbatchapp.exe {i}")
                                 {
                                     ApplicationPackageReferences = new List<ApplicationPackageReference>
                                     {
                                         new ApplicationPackageReference
                                         {
-                                            ApplicationId = "testbatchapp",
-                                            Version = "1.1"
+                                            //ApplicationId = "testbatchapp",                                           
+                                           ApplicationId = "hpcapp"//,
+                                           //Version = "1.1"
+
                                         }
                                     }
                                 };
                         }
                         else
                         {
-                            task = new CloudTask(taskId, $"cmd /c %AZ_BATCH_APP_PACKAGE_TESTBATCHAPP%\\testbatchapp.exe {i}")
+                            // task = new CloudTask(taskId, $"cmd /c %AZ_BATCH_APP_PACKAGE_TESTBATCHAPP%\\testbatchapp.exe {i}")
+                            task = new CloudTask(taskId, $"cmd /c %AZ_BATCH_APP_PACKAGE_HPCAPP%\\testbatchapp.exe {i}")
                             {
                                 ApplicationPackageReferences = new List<ApplicationPackageReference>
                                 {
                                     new ApplicationPackageReference
                                     {
-                                        ApplicationId = "testbatchapp",
-                                        Version = "1.1"
+                                      //  ApplicationId = "testbatchapp",                                       
+                                         ApplicationId = "hpcapp"//,
+                                         //Version = "1.1"
                                     }
                                 }
                             };
@@ -241,8 +246,10 @@ namespace BatchDotNetQuickstart
                 pool.ApplicationPackageReferences = new List<ApplicationPackageReference>
                     {
                         new ApplicationPackageReference {
-                            ApplicationId = "testbatchapp",
-                            Version = "1.1" }
+                            //ApplicationId = "testbatchapp",
+                            ApplicationId = "hpcapp"//,
+                            //Version = "1.1" 
+                        }
                     };
 
                 pool.Commit();

@@ -25,7 +25,6 @@ C:\Users\USER\Downloads\azure-batch-task-dependency\BatchDotnetQuickstart\bin\De
 C:\Users\USER\Downloads\azure-batch-task-dependency\BatchDotnetQuickstart\bin\Debug\netcoreapp2.1\BatchDotNetQuickstart.dll
 C:\Users\USER\Downloads\azure-batch-task-dependency\BatchDotnetQuickstart\bin\Debug\netcoreapp2.1\BatchDotNetQuickstart.pdb
 C:\Users\USER\Downloads\azure-batch-task-dependency\BatchDotnetQuickstart\obj\Debug\netcoreapp2.1\BatchDotNetQuickstart.csprojAssemblyReference.cache
-C:\Users\USER\Downloads\azure-batch-task-dependency\BatchDotnetQuickstart\obj\Debug\netcoreapp2.1\BatchDotNetQuickstart.csproj.CoreCompileInputs.cache
 C:\Users\USER\Downloads\azure-batch-task-dependency\BatchDotnetQuickstart\obj\Debug\netcoreapp2.1\BatchDotNetQuickstart.AssemblyInfoInputs.cache
 C:\Users\USER\Downloads\azure-batch-task-dependency\BatchDotnetQuickstart\obj\Debug\netcoreapp2.1\BatchDotNetQuickstart.AssemblyInfo.cs
 C:\Users\USER\Downloads\azure-batch-task-dependency\BatchDotnetQuickstart\obj\Debug\netcoreapp2.1\BatchDotNetQuickstart.dll
